@@ -20,5 +20,10 @@ The project processes a JSON file containing multiple orders. Each order include
 
 <mark>**items.json:**</mark> Contains item details with their price and the total number of times they have been ordered.
 
+
+## How to Use the Project
+
+Running the Program
+1. Clone the repository from GitHub:
 ```bash
 git clone https://github.com/yourusername/dosa-orders.git
