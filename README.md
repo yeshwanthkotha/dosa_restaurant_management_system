@@ -36,3 +36,25 @@ Run the program to process the orders and generate the output files:
 ```bash
 python script.py example_orders.json
 ```
+
+### Output Files:
+**customers.json: This file will contain customer phone numbers as keys and customer names as values in the following format:**
+```json
+{
+    "609-555-0124": "Karl",
+    "732-555-1234": "Mike"
+}
+```
+**items.json: This file will contain item names as keys and their details (price and number of times ordered) as values:**
+```json
+{
+    "Butter Masala Dosa": {
+        "price": 12.95,
+        "orders": 52
+    },
+    "Butter Mysore Masala Dosa": {
+        "price": 11.95,
+        "orders": 12
+    }
+}
+```
