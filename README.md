@@ -19,3 +19,6 @@ The project processes a JSON file containing multiple orders. Each order include
 <mark>**customers.json:**</mark> Contains a mapping of phone numbers to customer names.
 
 <mark>**items.json:**</mark> Contains item details with their price and the total number of times they have been ordered.
+
+```bash
+git clone https://github.com/yourusername/dosa-orders.git
