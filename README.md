@@ -17,4 +17,5 @@ The project processes a JSON file containing multiple orders. Each order include
 
 ### Files Generated:
 **customers.json:** Contains a mapping of phone numbers to customer names.
+
 **items.json:** Contains item details with their price and the total number of times they have been ordered.
