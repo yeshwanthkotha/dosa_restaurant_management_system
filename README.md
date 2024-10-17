@@ -15,5 +15,5 @@ The project processes a JSON file containing multiple orders. Each order include
 * Customer details (name and phone number)
 * A list of ordered items (name and price)
 * Optional notes (ignored in the processing)
-![Highlighted text](https://img.shields.io/static/v1?label=&message=Highlighted&color=green)
+${\color{red}Highlighted text}
 
