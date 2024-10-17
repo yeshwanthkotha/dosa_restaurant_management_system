@@ -15,5 +15,7 @@ The project processes a JSON file containing multiple orders. Each order include
 * Customer details (name and phone number)
 * A list of ordered items (name and price)
 * Optional notes (ignored in the processing)
-$ {\color{red}Highlighted text}
+- text in red
++ text in green
+! text in orange
 
