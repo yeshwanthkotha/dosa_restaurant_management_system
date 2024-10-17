@@ -12,7 +12,7 @@ This project is designed to process the order data from a JSON file for a dosa r
 
 The project processes a JSON file containing multiple orders. Each order includes:
 
-*A timestamp (ignored in the processing)
-*Customer details (name and phone number)
-*A list of ordered items (name and price)
-*Optional notes (ignored in the processing)
+* A timestamp (ignored in the processing)
+* Customer details (name and phone number)
+* A list of ordered items (name and price)
+* Optional notes (ignored in the processing)
