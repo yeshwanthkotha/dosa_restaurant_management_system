@@ -10,13 +10,33 @@ def extract_customers(orders):
     for order in orders:
         phone = order["phone"]
         name = order["name"]
-        # Avoid overwriting if the phone number already exists
         if phone not in customers:
             customers[phone] = name
     return customers
 
+def extract_items(orders):
+    items = {}
+    for order in orders:
+        for item in order["items"]:
+            name = item["name"]
+            price = item["price"]
 
+            if name not in items:
+                items[name] = {"price": price, "orders": 0}
+
+            items[name]["orders"] += 1
+    return items
+
+def write_to_json(data, filename):
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=4)
+
+file_name = input("enter the file name(*.json files only):-")        
 orders = load_orders('example_orders.json')
 #print(orders)
 customers = extract_customers(orders)
-print(customers)
+items = extract_items(orders)
+#print(customers)
+#print(items)
+write_to_json(customers, 'customers.json')
+write_to_json(items, 'items.json')
