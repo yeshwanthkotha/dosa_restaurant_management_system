@@ -23,7 +23,16 @@ The project processes a JSON file containing multiple orders. Each order include
 
 ## How to Use the Project
 
-Running the Program
-1. Clone the repository from GitHub:
+### Running the Program
+**1. Clone the repository from GitHub:**
 ```bash
 git clone https://github.com/yourusername/dosa-orders.git
+```
+Navigate to the project directory:
+```bash
+cd dosa-orders
+```
+Run the program to process the orders and generate the output files:
+```python
+python script.py example_orders.json
+```
