@@ -33,6 +33,6 @@ Navigate to the project directory:
 cd dosa-orders
 ```
 Run the program to process the orders and generate the output files:
-````python`
+```python
 python script.py example_orders.json
 ```
